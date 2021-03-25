@@ -1,10 +1,14 @@
+import React from 'react'
 import './App.css';
+import Header from './Header.js'
 
 function App() {
   return (
     // BEM nameing convention (lower case className, for example)
     <div className="app">
-      <h1>WeDoDeFi</h1>
+
+      <Header />
+
     </div>
   );
 }
