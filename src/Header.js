@@ -12,11 +12,10 @@ function Header() {
 		<div className='header'>
 
 			<div className='header__left'>
-				<img src='https://ethereum.org/static/c48a5f760c34dfadcf05a208dab137cc/31987/eth-diamond-rainbow.png' alt='' />
-				<h2>WeDoDeFi</h2>
+				<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/800px-Facebook_f_logo_%282019%29.svg.png' alt='' />
 				<div className='header__input'>
 					<PageviewTwoToneIcon fontSize='large'/>
-					<input placeholder='Search DeFi' type='text' />
+					<input placeholder='Search...' type='text' />
 				</div>
 			</div>
 
