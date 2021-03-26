@@ -1,3 +1,3 @@
-WeDoDeFi
+#A simple FB clone
 
-Social web app for DeFi discovery. (React.js + Firebase)
+Just brushing up on some basic React skills including Material UI + Firebase.
