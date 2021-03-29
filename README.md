@@ -1,3 +1,3 @@
-#A simple FB front-end clone 
+#A simple FB interface clone 
 
-Just brushing up on some basic React skills including Material UI + Firebase.
+Just brushing up on some basic React.js skills including Material UI + Firebase.
