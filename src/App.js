@@ -5,11 +5,13 @@ import Sidebar from './Sidebar.js'
 import Feed from './Feed.js'
 import Widgets from  './Widgets.js'
 import Login from "./Login.js"
+import { useStateValue } from "./StateProvider.js"
 
 function App() {
-  const user = null
+  const [{user}, dispatch] = useStateValue('')
+
   return (
-    // BEM nameing convention (lower case className, for example)
+    // BEM naming convention (lower case className, for example)
     <div className="app">
 
       {!user ? (<Login />) : (
