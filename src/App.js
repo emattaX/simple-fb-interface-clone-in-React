@@ -8,7 +8,7 @@ import Login from "./Login.js"
 import { useStateValue } from "./StateProvider.js"
 
 function App() {
-  const [{user}, dispatch] = useStateValue('')
+  const [{user}, dispatch] = useStateValue()
 
   return (
     // BEM naming convention (lower case className, for example)

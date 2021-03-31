@@ -6,8 +6,12 @@ import WhatshotTwoToneIcon from '@material-ui/icons/WhatshotTwoTone'
 import FavoriteTwoToneIcon from '@material-ui/icons/FavoriteTwoTone'
 import FiberNewTwoToneIcon from '@material-ui/icons/FiberNewTwoTone'
 import { Avatar } from '@material-ui/core'
+import { useStateValue } from "./StateProvider.js"
 
 function Header() {
+
+	const [{user}, dispatch] = useStateValue()
+
 	return (
 		<div className='header'>
 
@@ -36,8 +40,8 @@ function Header() {
 
 			<div className='header__right'>
 				<div className='header__info'>
-					<Avatar />
-					<h4>Ernexian</h4>
+					<Avatar src={user.photoURL}/>
+					<h4>{user.displayName}</h4>
 				</div>
 			</div>
 
